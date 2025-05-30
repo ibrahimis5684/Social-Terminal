@@ -157,7 +157,7 @@ let awaitingPinCopyData = null;
 const ENCRYPTED_PIN_SUM = 274; // 8(56)+5(53)+8(56)+5(53)+8(56)
 
 function printToTerminal(text) {
-  output.innerHTML += `<div>C:\\Users\\You&gt; ${text}</div>`;
+  output.innerHTML += `<div>C:\\Users\\ibrahim\\social-media> ${text}</div>`;
 }
 
 function showCopied(value) {
