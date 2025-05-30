@@ -1,0 +1,90 @@
+    body {
+      margin: 0;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: 'Consolas', monospace;
+      font-size: 16px;
+    }
+
+    .terminal {
+      padding: 20px;
+      height: 85vh;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+
+    .header {
+      color: #00ffff;
+      margin-bottom: 5px;
+    }
+
+    .input-line {
+      display: flex;
+      align-items: center;
+    }
+
+    .input-line input {
+      background: none;
+      border: none;
+      color: #ffffff;
+      outline: none;
+      font-family: inherit;
+      font-size: inherit;
+      width: 100%;
+    }
+
+    #output {
+      margin-bottom: 5px;
+      white-space: pre-line;
+    }
+
+    .copied {
+      color: #ffff00;
+      margin-top: 5px;
+      margin-left: 50px;
+    }
+
+    .error {
+      color: #ff5555;
+    }
+
+    .suggestion {
+      color: #8888ff;
+      margin: 16px 0;
+    }
+
+    .details-block {
+      color: #ffffff;
+      margin: 16px 0;
+    }
+
+    .details-block div:first-child {
+      margin-bottom: 5px;
+      margin-left: 0;
+    }
+    .details-block div {
+      margin-left: 50px;
+    }
+
+    ::selection {
+      background: #ffffff;
+      color: #000;
+    }
+
+    .typing {
+      display: inline-block;
+      border-right: 2px solid #ffffff;
+      animation: blink 0.7s steps(1) infinite;
+    }
+
+    .pin-box {
+        margin: 5px 0;
+        color: #8888ff;
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
